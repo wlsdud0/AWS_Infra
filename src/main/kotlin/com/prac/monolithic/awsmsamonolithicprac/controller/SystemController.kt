@@ -8,9 +8,9 @@ import java.lang.management.ManagementFactory
 import java.net.InetAddress
 import java.time.LocalDateTime
 import kotlin.math.sqrt
-
 @RestController
 class SystemController {
+
     @GetMapping("/health_check")
     fun healthCheck() = ResponseEntity.ok(
         mapOf(
@@ -19,9 +19,10 @@ class SystemController {
             "ipAddress" to InetAddress.getLocalHost().hostAddress,
             "timestamp" to LocalDateTime.now(),
             "cpuUsage" to getCurrentCpuUsage(),
-            "branch" to "2_monolithic_cloud",
+            "branch" to "2_monolithic_cloud_v2",
         )
     )
+
 
     fun getCurrentCpuUsage(): Double {
         val osBean = ManagementFactory.getOperatingSystemMXBean() as OperatingSystemMXBean
