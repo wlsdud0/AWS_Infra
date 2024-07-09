@@ -1,4 +1,4 @@
-# Bastion Host - 보안 강화
+# Bastion Host - 보안강화
 
 ### Bastion Host
 
