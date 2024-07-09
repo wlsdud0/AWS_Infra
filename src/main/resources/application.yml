@@ -3,18 +3,18 @@ server:
 
 spring:
 
-  datasource:
-    read:
-      url:
-      username:
-      password:
-    write:
-      url:
-      username:
-      password:
-    driverClassName: org.postgresql.Driver
-
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+logging:
+  file:
+    name: application.log
+  level:
+    root: error
+    com:
+      prac:
+        monolithic:
+          awsmsamonolithicprac:
+            config: info
