@@ -9,7 +9,7 @@
 
 ### Bastion Host 다이어그램
 
-<img src="../../img/Bastion Host 다이어그램.png" alt="가용영역" width="300" height="150"> 
+<img src="../../img/Bastion Host 다이어그램.png" width="300" height="150"> 
 
 - goopang서버와 Bastion Host 각각 보안 그룹을 가지고 있어야 함
 - Bastion Host는 SSH 포트만 열어놓고 goopang서버는 SSH 포트를 Bastion Host의 보안 그룹을 대상으로 열어둠

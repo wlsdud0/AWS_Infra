@@ -11,11 +11,11 @@
 
 ### 보안그룹 인바운드 규칙
 
-<img src="../../img/보안그룹 인바운드 규칙.png" alt="가용영역" width="300" height="300"> 
+<img src="../../img/보안그룹 인바운드 규칙.png" width="300" height="300"> 
 
 ### 보안그룹의 Stateful
 
-<img src="../../img/보안그룹의 Stateful.png" alt="가용영역" width="300" height="150"> 
+<img src="../../img/보안그룹의 Stateful.png" width="300" height="150"> 
 
 인바운드에서 허용된 트래픽은 허용된 상태가 유지되어 응답이 나갈때도 허용되는 특징
 
@@ -33,8 +33,8 @@ Network Access Control List
 
 ### 네트워크ACL의 Stateless
 
-<img src="../../img/네트워크ACL의 Stateless.png" alt="가용영역" width="300" height="150"> 
+<img src="../../img/네트워크ACL의 Stateless.png" width="300" height="150"> 
 
 ### 보안그룹과 네트워크ACL
 
-<img src="../../img/보안그룹과 네트워크ACL.png" alt="가용영역" width="300" height="300"> 
+<img src="../../img/보안그룹과 네트워크ACL.png" width="300" height="300"> 

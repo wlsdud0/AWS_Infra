@@ -46,7 +46,7 @@ Virtual Private Cloud
 
 ### 인터넷 게이트웨이
 
-<img src="../../img/인터넷 게이트웨이.png" alt="가용영역" width="300" height="300"> 
+<img src="../../img/인터넷 게이트웨이.png" width="300" height="300"> 
 
 - VPC 내에서 외부 인터넷과 통신할 수 있게 해주는 서비스
 - VPC 내부의 리소스가 외부로 나갈 수 있고,
@@ -55,7 +55,7 @@ Virtual Private Cloud
 
 ### NAT 게이트웨이
 
-<img src="../../img/NAT 게이트웨이.png" alt="가용영역" width="300" height="200"> 
+<img src="../../img/NAT 게이트웨이.png" width="300" height="200"> 
 
 
 - VPC 내부의 리소스가 외부 인터넷으로 나갈 수 있게 해주는 서비스
@@ -64,11 +64,11 @@ Virtual Private Cloud
 
 ### NAT 게이트웨이 통신
 
-<img src="../../img/NAT 게이트웨이 통신.png" alt="가용영역" width="300" height="200"> 
+<img src="../../img/NAT 게이트웨이 통신.png" width="300" height="200"> 
 
 ### 라우팅 테이블
 
-<img src="../../img/라우팅 테이블.png" alt="가용영역" width="300" height="200"> 
+<img src="../../img/라우팅 테이블.png" width="300" height="200"> 
 
 - 서브넷의 트래픽을 어떻게 어디로 전달할지 정의하는 요소
 - 서브넷에 연결
@@ -77,11 +77,11 @@ Virtual Private Cloud
 
 ### 라우팅 테이블 다이어그램
 
-<img src="../../img/라우팅 테이블 다이어그램.png" alt="가용영역" width="300" height="200"> 
+<img src="../../img/라우팅 테이블 다이어그램.png" width="300" height="200"> 
 
 ### VPC의 구성요소를 이용한 다이어그램
 
-<img src="../../img/VPC 다이어그램.png" alt="가용영역" width="300" height="200"> 
+<img src="../../img/VPC 다이어그램.png" width="300" height="200"> 
 
 ### CIDR
 
@@ -125,4 +125,4 @@ VPC CIDR 블록 (10.0.0.0/16)과 서브넷 CIDR 블록 (10.1.0.0/24, 10.0.1.0/24
 
 ### 인터넷 게이트웨이 - NAT 게이트웨이 - 서브넷 - 라우팅 테이블 설정
 
-<img src="../../img/인터넷 게이트웨이-NAT 게이트웨이-서브넷-라우팅 테이블 설정.png" alt="가용영역" width="500" height="200"> 
+<img src="../../img/인터넷 게이트웨이-NAT 게이트웨이-서브넷-라우팅 테이블 설정.png" width="500" height="200"> 
