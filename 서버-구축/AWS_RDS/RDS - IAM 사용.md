@@ -1,4 +1,4 @@
-# RDS - IAM 사용
+# RDS - AMI(Amazon Machine Image) 사용
 
 ### 사용자 데이터 - 인스턴스 연결
 
